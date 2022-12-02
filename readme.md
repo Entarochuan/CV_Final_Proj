@@ -32,6 +32,8 @@ pip install torch torchvision
 
 打开VScode终端，按照以下的链接创建SSH key。[链接 ](https://segmentfault.com/a/1190000018826722) 
 
+（不用打开git bash， 直接在终端里面输入就好。）
+
 终端界面如下图:
 
 ![image-20221202152735535](C:\Users\YichuanMa\AppData\Roaming\Typora\typora-user-images\image-20221202152735535.png)
