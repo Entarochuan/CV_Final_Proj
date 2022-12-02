@@ -24,6 +24,28 @@ python==3.9.15
 pip install torch torchvision 
 ```
 
+添加push, pull权限的流程:
+
+(以VScode为例。)
+
+先将git添加到环境变量中。
+
+打开VScode终端，按照以下的链接创建SSH key。[链接 ](https://segmentfault.com/a/1190000018826722) 
+
+终端界面如下图:
+
+![image-20221202152735535](C:\Users\YichuanMa\AppData\Roaming\Typora\typora-user-images\image-20221202152735535.png)
+
+添加后在终端中输入git remote -v ，如果返回的结果为 git@github.com:Entarochuan/CV_Final_Proj.git 则不用修改。
+
+否则输入:
+
+`git remote set-url origin git@github.com:Entarochuan/CV_Final_Proj.git`
+
+修改链接。
+
+结束后可以随便新建一个文件尝试push, pull操作(记得删掉新建的文件并再push一遍你的删除操作)。
+
 
 
 ### 3 文件目录
