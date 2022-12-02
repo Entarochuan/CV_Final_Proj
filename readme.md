@@ -11,7 +11,7 @@
 ### 1 成员
 
 520030910393 马逸川
-520030910396 温海林
+
 
 
 ### 2 环境配置
@@ -24,6 +24,8 @@ python==3.9.15
 pip install torch torchvision 
 ```
 
+可以先尝试一下有没有push, pull的权限，如果没有的话按照下面的方式添加。
+
 添加push, pull权限的流程:
 
 (以VScode为例。)
@@ -33,10 +35,6 @@ pip install torch torchvision
 打开VScode终端，按照以下的链接创建SSH key。[链接 ](https://segmentfault.com/a/1190000018826722) 
 
 （不用打开git bash， 直接在终端里面输入就好。）
-
-终端界面如下图:
-
-![image-20221202152735535](C:\Users\YichuanMa\AppData\Roaming\Typora\typora-user-images\image-20221202152735535.png)
 
 添加后在终端中输入git remote -v ，如果返回的结果为 git@github.com:Entarochuan/CV_Final_Proj.git 则不用修改。
 
